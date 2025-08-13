@@ -1,0 +1,50 @@
+[gd_scene load_steps=5 format=4 uid="uid://c5x0f3gwl65ip"]
+
+[sub_resource type="PortableCompressedTexture2D" id="PortableCompressedTexture2D_q4b8i"]
+_data = PackedByteArray("AAADAAUAAAABAAAAEAAAABAAAAB8AAAAUklGRnQAAABXRUJQVlA4TGcAAAAvD8ADECdAkG0z4KGO4SAnIcw2mv9rSDM5hyMQEhD+J9c8MGX+A/B1ruAFBm0jOfpGYJbB5g/BPYG2/EntlYcQ0f8JuKN5BM0orbdgWEMu5y0mSb8gyZNJJOTUZLSAq1XPNxLEHc0DAA==")
+size_override = Vector2(16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rydhl"]
+atlas = SubResource("PortableCompressedTexture2D_q4b8i")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_g4w3s"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rydhl")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q4b8i"]
+size = Vector2(16, 16)
+
+[node name="Panel-blue" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_g4w3s")
+metadata/_aseprite_wizard_interface_config_ = {
+"layer_section": false,
+"pending_changes": {}
+}
+metadata/_aseprite_wizard_config_ = {
+"embed_tex": true,
+"layers": [],
+"o_ex_p": "",
+"o_folder": "",
+"o_name": "",
+"only_visible": false,
+"scale": "1.0",
+"should_round_fps": true,
+"slice": "",
+"source": "res://panels/panel-blue.aseprite",
+"source_uid": 6444139314935674291
+}
+metadata/_aseprite_wizard_source_file_hash_ = "a22048a07b9056f07f5d86fdacd0fd8e"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_q4b8i")

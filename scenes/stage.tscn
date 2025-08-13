@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dl7urev2qabvl"]
+
+[ext_resource type="PackedScene" uid="uid://c5x0f3gwl65ip" path="res://panels/panel-blue.tscn" id="1_8rem4"]
+
+[node name="Stage" type="Node2D"]
+
+[node name="Panel-blue" parent="." instance=ExtResource("1_8rem4")]
+position = Vector2(8, 8)
