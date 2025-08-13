@@ -15,5 +15,20 @@ position = Vector2(8, 8)
 [node name="Panel-blue3" parent="." instance=ExtResource("1_8rem4")]
 position = Vector2(40, 8)
 
+[node name="Panel-blue4" parent="." instance=ExtResource("1_8rem4")]
+position = Vector2(56, 8)
+
+[node name="Panel-blue5" parent="." instance=ExtResource("1_8rem4")]
+position = Vector2(40, 24)
+
+[node name="Panel-blue6" parent="." instance=ExtResource("1_8rem4")]
+position = Vector2(24, 24)
+
+[node name="Panel-blue7" parent="." instance=ExtResource("1_8rem4")]
+position = Vector2(8, 24)
+
+[node name="Panel-blue8" parent="." instance=ExtResource("1_8rem4")]
+position = Vector2(56, 24)
+
 [node name="Cursor" parent="." instance=ExtResource("2_gi7kc")]
-position = Vector2(7, 8)
+position = Vector2(12, 8)

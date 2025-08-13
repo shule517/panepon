@@ -1,24 +1,24 @@
 [gd_scene load_steps=7 format=4 uid="uid://bco2bhrorpcu8"]
 
 [sub_resource type="PortableCompressedTexture2D" id="PortableCompressedTexture2D_gyd2p"]
-_data = PackedByteArray("AAADAAUAAAABAAAAYAAAAEAAAADuAAAAUklGRuYAAABXRUJQVlA4TNoAAAAvX8APEBcgEEhS2B92DYFAEsv+jgsEktj2d3r+A/4VOK5tO1UODhlDCZoqKMGlBBZVpAlkmOFfKdMFHUb0X5Hbto1860pS/UJLGgFEC5g2cL5xnCYKqMMIOFpuwNFgvAKWqUPSOO7B+lFynQL3NuoOzICn34f2ABKAKmORtS5424TL6RfyHyqjjc74/8BLhq/QY9pv1PvZMo0W0BLT9gs0IlLgH4w2yvO5nnBoRbnc1EEAe0svyllyHTlgFefZRjvGQAJQdVkAgrdL/nL1h/L/ucBLvscC739sAA==")
-size_override = Vector2(96, 64)
+_data = PackedByteArray("AAADAAUAAAABAAAAgQAAAEAAAAA0AQAAUklGRiwBAABXRUJQVlA4TCABAAAvgMAPEBcgEEhS2B92DYFAEsv+jgsEktj2d3r+A/4VwI22vW3zWpnoPQITptAITgBJVSwtTfGfdoDPZbZxGFNHKMcuov+M3LZxRN+mbvErPjR+qfEKvJLwoQg9CL0PTTe1w84dNgWbtmaWikkQk9QuYh3WOKxDnJKZUSxS2hXTi2i80XiHpNA6kJXf3oeNvPWQzjiSgKRARlvCLBaNb5JAvT/FmnEU8bj04IMTTzS8y5I9HLQXJcx2+sXdDuxSkrhFu9RsQw9rh507bAo2bc0sFZNA6H3oyIfGLzVegVcSPhShxw2XjyBxbV6GU7ONVydGdZmVuy3UmkXSdQ8P23jv8REZwnQrIIdWAIoTyx6Gj+CgPfzBfXRgDy3aQw9v3QA=")
+size_override = Vector2(129, 64)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_isnha"]
 atlas = SubResource("PortableCompressedTexture2D_gyd2p")
-region = Rect2(64, 0, 32, 32)
+region = Rect2(86, 0, 43, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_g0wji"]
 atlas = SubResource("PortableCompressedTexture2D_gyd2p")
-region = Rect2(0, 32, 32, 32)
+region = Rect2(0, 32, 43, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5wr77"]
 atlas = SubResource("PortableCompressedTexture2D_gyd2p")
-region = Rect2(0, 0, 32, 32)
+region = Rect2(0, 0, 43, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1oxqp"]
 atlas = SubResource("PortableCompressedTexture2D_gyd2p")
-region = Rect2(32, 0, 32, 32)
+region = Rect2(43, 0, 43, 32)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_eq5v2"]
 animations = [{
@@ -70,4 +70,4 @@ metadata/_aseprite_wizard_config_ = {
 "source": "res://cursor/cursor.aseprite",
 "source_uid": 4053588453672351778
 }
-metadata/_aseprite_wizard_source_file_hash_ = "dc2430885fd48be93d1abafb0d4dda23"
+metadata/_aseprite_wizard_source_file_hash_ = "e0070fc762190ee9390d7e21c22b84a0"
