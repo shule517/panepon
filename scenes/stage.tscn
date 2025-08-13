@@ -4,5 +4,11 @@
 
 [node name="Stage" type="Node2D"]
 
+[node name="Panel-blue2" parent="." instance=ExtResource("1_8rem4")]
+position = Vector2(24, 8)
+
 [node name="Panel-blue" parent="." instance=ExtResource("1_8rem4")]
 position = Vector2(8, 8)
+
+[node name="Panel-blue3" parent="." instance=ExtResource("1_8rem4")]
+position = Vector2(40, 8)
