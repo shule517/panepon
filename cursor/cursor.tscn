@@ -1,0 +1,73 @@
+[gd_scene load_steps=7 format=4 uid="uid://bco2bhrorpcu8"]
+
+[sub_resource type="PortableCompressedTexture2D" id="PortableCompressedTexture2D_gyd2p"]
+_data = PackedByteArray("AAADAAUAAAABAAAAYAAAAEAAAADuAAAAUklGRuYAAABXRUJQVlA4TNoAAAAvX8APEBcgEEhS2B92DYFAEsv+jgsEktj2d3r+A/4VOK5tO1UODhlDCZoqKMGlBBZVpAlkmOFfKdMFHUb0X5Hbto1860pS/UJLGgFEC5g2cL5xnCYKqMMIOFpuwNFgvAKWqUPSOO7B+lFynQL3NuoOzICn34f2ABKAKmORtS5424TL6RfyHyqjjc74/8BLhq/QY9pv1PvZMo0W0BLT9gs0IlLgH4w2yvO5nnBoRbnc1EEAe0svyllyHTlgFefZRjvGQAJQdVkAgrdL/nL1h/L/ucBLvscC739sAA==")
+size_override = Vector2(96, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_isnha"]
+atlas = SubResource("PortableCompressedTexture2D_gyd2p")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g0wji"]
+atlas = SubResource("PortableCompressedTexture2D_gyd2p")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5wr77"]
+atlas = SubResource("PortableCompressedTexture2D_gyd2p")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1oxqp"]
+atlas = SubResource("PortableCompressedTexture2D_gyd2p")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_eq5v2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_isnha")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g0wji")
+}],
+"loop": true,
+"name": &"Tag",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5wr77")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1oxqp")
+}],
+"loop": true,
+"name": &"cursor",
+"speed": 2.0
+}]
+
+[node name="Cursor" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(7, 6)
+sprite_frames = SubResource("SpriteFrames_eq5v2")
+animation = &"cursor"
+autoplay = "cursor"
+metadata/_aseprite_wizard_interface_config_ = {
+"layer_section": true,
+"pending_changes": {}
+}
+metadata/_aseprite_wizard_config_ = {
+"embed_tex": true,
+"layers": [],
+"o_ex_p": "",
+"o_folder": "",
+"o_name": "",
+"only_visible": true,
+"scale": "1.0",
+"should_round_fps": true,
+"slice": "",
+"source": "res://cursor/cursor.aseprite",
+"source_uid": 4053588453672351778
+}
+metadata/_aseprite_wizard_source_file_hash_ = "dc2430885fd48be93d1abafb0d4dda23"

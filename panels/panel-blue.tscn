@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=4 uid="uid://c5x0f3gwl65ip"]
 
 [sub_resource type="PortableCompressedTexture2D" id="PortableCompressedTexture2D_q4b8i"]
-_data = PackedByteArray("AAADAAUAAAABAAAAEAAAABAAAAB8AAAAUklGRnQAAABXRUJQVlA4TGcAAAAvD8ADECdAkG0z4KGO4SAnIcw2mv9rSDM5hyMQEhD+J9c8MGX+A/B1ruAFBm0jOfpGYJbB5g/BPYG2/EntlYcQ0f8JuKN5BM0orbdgWEMu5y0mSb8gyZNJJOTUZLSAq1XPNxLEHc0DAA==")
+_data = PackedByteArray("AAADAAUAAAABAAAAEAAAABAAAABoAAAAUklGRmAAAABXRUJQVlA4TFQAAAAvD8ADECdAkG0z4KGO4SAnIcw2mv9rSDM5hyMQEhD+J9c8MGX+A/B1ruAFBY0kNTQDWDhQ8Bho598UHQxE9H8CMoeOGDL6QV3AH7KVRhIqO4CZQwc=")
 size_override = Vector2(16, 16)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rydhl"]
@@ -28,7 +28,7 @@ size = Vector2(16, 16)
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_g4w3s")
 metadata/_aseprite_wizard_interface_config_ = {
-"layer_section": false,
+"layer_section": true,
 "pending_changes": {}
 }
 metadata/_aseprite_wizard_config_ = {
@@ -37,7 +37,7 @@ metadata/_aseprite_wizard_config_ = {
 "o_ex_p": "",
 "o_folder": "",
 "o_name": "",
-"only_visible": false,
+"only_visible": true,
 "scale": "1.0",
 "should_round_fps": true,
 "slice": "",

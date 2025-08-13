@@ -1,8 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://dl7urev2qabvl"]
+[gd_scene load_steps=3 format=3 uid="uid://dl7urev2qabvl"]
 
 [ext_resource type="PackedScene" uid="uid://c5x0f3gwl65ip" path="res://panels/panel-blue.tscn" id="1_8rem4"]
+[ext_resource type="PackedScene" uid="uid://bco2bhrorpcu8" path="res://cursor/cursor.tscn" id="2_gi7kc"]
 
 [node name="Stage" type="Node2D"]
+position = Vector2(24, 20)
 
 [node name="Panel-blue2" parent="." instance=ExtResource("1_8rem4")]
 position = Vector2(24, 8)
@@ -12,3 +14,6 @@ position = Vector2(8, 8)
 
 [node name="Panel-blue3" parent="." instance=ExtResource("1_8rem4")]
 position = Vector2(40, 8)
+
+[node name="Cursor" parent="." instance=ExtResource("2_gi7kc")]
+position = Vector2(7, 8)
